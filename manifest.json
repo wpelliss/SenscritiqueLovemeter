@@ -2,9 +2,9 @@
 "update_url": "https://clients2.google.com/service/update2/crx",
 
 "manifest_version": 2,
-    "name": "SC_LoveMeter",
-    "description": "Une nouvelle manière de noter ses oeuvres préferées.",
-    "version": "0.3",
+    "name": "SC_Database",
+    "description": "Senscritique Database",
+    "version": "0.0.1",
     "content_scripts": [
         {
             "matches": [
@@ -28,7 +28,8 @@
         "128": "icon128.png"
     },
     "permissions": [
-        "storage",
-        "tabs"
+		"activeTab", 
+		"https://www.senscritique.com/*",
+		"https://pellissard.com/*"
     ]
 }
